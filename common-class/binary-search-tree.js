@@ -1,3 +1,7 @@
+/**
+ * @description 二叉搜索树
+ * @author wangjiaqun
+ */
 function BinarySearchTree() {
     var Node = function (key) {
         this.key = key;
@@ -146,7 +150,7 @@ function BinarySearchTree() {
         return node;
     };
 }
-
+module.exports = BinarySearchTree;
 var tree = new BinarySearchTree();
 tree.insert(11);
 tree.insert(22);

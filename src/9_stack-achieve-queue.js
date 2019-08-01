@@ -6,31 +6,7 @@
  * 出队：判断stack2是否为空，如果为空，则将stack1中所有元素pop，并push进stack2，stack2出栈； 如果不为空，stack2直接出栈。
  * @author wangjiaqun 044033
  */
-// 我们先来写一个栈
-function Stack() {
-    var items = []; // 初始化数组做栈体
-    this.push = function (element) { // 入栈
-        items.push(element);
-    };
-    this.pop = function () { // 出栈
-        return items.pop();
-    };
-    this.peek = function () { // 栈顶
-        return items[items.length - 1];
-    };
-    this.isEmpty = function () { // 是否为空
-        return items.length === 0;
-    };
-    this.size = function () { // 栈长度
-        return items.length;
-    };
-    this.clear = function () { // 清空栈
-        items = [];
-    };
-    this.print = function () { // 打印栈
-        console.log(items.toString());
-    };
-}
+var Stack = require("../common-class/stack"); // 导入栈
 // 新建两个栈
 var stack1 = new Stack();
 var stack2 = new Stack();
@@ -57,3 +33,6 @@ function pop() {
     }
     return result;
 }
+var test = push('123');
+pop();
+console.log('test--->', test);
