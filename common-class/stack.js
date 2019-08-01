@@ -4,25 +4,32 @@
  */
 function Stack() {
     var items = []; // 初始化数组做栈体
-    this.push = function (element) { // 入栈
+    // 入栈
+    this.push = function (element) {
         items.push(element);
     };
-    this.pop = function () { // 出栈
+    // 出栈
+    this.pop = function () {
         return items.pop();
     };
-    this.peek = function () { // 栈顶
+    // 栈顶
+    this.peek = function () {
         return items[items.length - 1];
     };
-    this.isEmpty = function () { // 是否为空
+    // 是否为空
+    this.isEmpty = function () {
         return items.length === 0;
     };
-    this.size = function () { // 栈长度
+    // 栈长度
+    this.size = function () {
         return items.length;
     };
-    this.clear = function () { // 清空栈
+    // 清空栈
+    this.clear = function () {
         items = [];
     };
-    this.print = function () { // 打印栈
+    // 打印栈
+    this.print = function () {
         console.log(items.toString());
     };
 }
