@@ -2,7 +2,7 @@
  * @description 从尾到头打印链表
  * 输入一个链表，按链表值从尾到头的顺序返回一个ArrayList。
  * @author wangjiaqun 044033
- * @param {any} head 链表的头元素
+ * @param {ListNode} head 链表的头元素
  * @return {Array} reverse数组
  */
 function ListNode(x) {

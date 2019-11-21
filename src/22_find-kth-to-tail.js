@@ -2,8 +2,9 @@
  * @description 链表中倒数第k个节点
  * 输入一个链表，输出该链表中倒数第k个结点。
  * @author wangjiaqun
- * @param
- * @return
+ * @param {ListNode} head 头节点
+ * @param {Number} k 节点序号
+ * @return {ListNode} 倒数第k个节点元素
  */
 function ListNode(x) {
     this.val = x;
