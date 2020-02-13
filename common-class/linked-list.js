@@ -112,4 +112,4 @@ function LinkedList() {
     };
 
 }
-module.exports = LindedList;
+module.exports = LinkedList;
