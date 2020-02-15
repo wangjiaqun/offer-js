@@ -107,9 +107,5 @@ function LinkedList() {
         }
         return string;
     };
-    this.print = function () {
-        console.log(this.toString());
-    };
-
 }
 module.exports = LinkedList;
