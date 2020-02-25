@@ -3,7 +3,7 @@
  * 给一个链表，若其中包含环，请找出该链表的环的入口结点，否则，输出null。
  * @author wangjiaqun
  * @param {ListNode} pHead 链表的头节点
- * @return
+ * @return 入口节点对象 如果没有输出null
  */
 function ListNode(x) {
     this.val = x;
